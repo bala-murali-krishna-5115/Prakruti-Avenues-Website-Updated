@@ -1,6 +1,6 @@
 # Prakruti Avenues — Updated Property Website
 
-This copy has been updated with the supplied property names, locations, additional apartment/plot listings, vendor name, email address, and Google Maps location.
+This copy has been updated with the supplied property names, locations, additional apartment/plot listings, vendor name, and Google Maps location.
 
 ## Main property list
 
@@ -21,8 +21,7 @@ This copy has been updated with the supplied property names, locations, addition
 - Plot — Nexus Valley — Gandigundam, Vizag
 - Plot — Ram Bageecha — Korukonda, Vizianagaram
 
-Vendor: Sai Priya Konada
-Email: propertyforsaleinvizag@gmail.com
+Vendor: Rahul Varma
 Location: supplied Google Maps link in the website Contact page.
 
 ## Deploy with Netlify
