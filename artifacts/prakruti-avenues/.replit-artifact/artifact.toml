@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Prakruti Avenues"
+description = "A premium real-estate website for Prakruti Avenues Pvt. Ltd. showcasing verified plotted developments, brochure assets, project media, and direct enquiry paths for buyers."
+version = "1.0.0"
+id = "artifacts/prakruti-avenues"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19642
+
+[services.development]
+run = "pnpm --filter @workspace/prakruti-avenues run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/prakruti-avenues", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/prakruti-avenues/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19642"
+BASE_PATH = "/"
