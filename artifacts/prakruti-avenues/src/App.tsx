@@ -41,6 +41,15 @@ const propertyListings = [
   {type:'Plot',name:'Ram Bageecha',location:'Korukonda, Vizianagaram'},
 ];
 
+const faqs:[string,string][] = [
+  ['Which areas do Prakruti Avenues projects cover?','The listed projects span Visakhapatnam, Vizianagaram, Srikakulam and Bhogapuram. Open the Projects page to browse by region.'],
+  ['How can I get details about a project?','Use the project cards and brochures on this website, or send an enquiry through the Contact page. The enquiry opens WhatsApp with your details ready to send to the property team.'],
+  ['Are the listed prices and availability current?','Availability, pricing, documentation and applicable charges can change. Please contact the property team to confirm the latest details before making a decision.'],
+  ['Can I arrange a site visit?','Yes. Send an enquiry through the Contact page and select “I would like a site visit,” then review and send the prefilled WhatsApp message.'],
+  ['Where can I find project brochures and layout plans?','Visit the Brochures page to preview the supplied project brochures and layout plans or download the available PDFs.'],
+  ['How do I reach the property team?','Call +91 9392638934, use the WhatsApp enquiry form, or open the Google Maps location from the Contact page.'],
+];
+
 const brochures = [
   ['Balaji Hills','balaji-hills-new-brochure.jpg','balaji-hills-new-brochure.pdf','Sontyam · GVMC Limits, Vizag','project'],
   ['Bhogapuram East — Combined Plan','bhogapuram-east-combined-plan.jpg','bhogapuram-east-combined-plan.pdf','Bhogapuram','layout'],
