@@ -22,6 +22,7 @@ This copy has been updated with the supplied property names, locations, addition
 - Plot — Ram Bageecha — Korukonda, Vizianagaram
 
 Vendor: Rahul Varma
+Phone: +91 9392638934
 Location: supplied Google Maps link in the website Contact page.
 
 ## Deploy with Netlify
